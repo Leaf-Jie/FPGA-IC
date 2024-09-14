@@ -1,0 +1,56 @@
+[
+ {
+  "InstFile" : "D:/WORK/FPGA/Learning/SPI_Learning/src/fifo_top/fifo_top.v",
+  "InstLine" : 144,
+  "InstName" : "fifo_top",
+  "ModuleFile" : "D:/WORK/FPGA/Learning/SPI_Learning/src/fifo_top/fifo_top.v",
+  "ModuleLine" : 144,
+  "ModuleName" : "fifo_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/WORK/FPGA/Learning/SPI_Learning/src/fifo_top/fifo_top.v",
+    "InstLine" : 169,
+    "InstName" : "fifo_inst",
+    "ModuleFile" : "D:/WORK/FPGA/Learning/SPI_Learning/src/fifo_top/fifo_top.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "~fifo.fifo_top"
+   }
+  ]
+ },
+ {
+  "InstFile" : "D:/WORK/FPGA/Learning/SPI_Learning/src/top.v",
+  "InstLine" : 1,
+  "InstName" : "top",
+  "ModuleFile" : "D:/WORK/FPGA/Learning/SPI_Learning/src/top.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/WORK/FPGA/Learning/SPI_Learning/src/top.v",
+    "InstLine" : 39,
+    "InstName" : "u_rPLL",
+    "ModuleFile" : "D:/WORK/FPGA/Learning/SPI_Learning/src/gowin_rpll/gowin_rpll.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_rPLL"
+   },
+   {
+    "InstFile" : "D:/WORK/FPGA/Learning/SPI_Learning/src/top.v",
+    "InstLine" : 45,
+    "InstName" : "u_ledDriver",
+    "ModuleFile" : "D:/WORK/FPGA/Learning/SPI_Learning/src/LedControl.v",
+    "ModuleLine" : 142,
+    "ModuleName" : "spi_controller",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/WORK/FPGA/Learning/SPI_Learning/src/LedControl.v",
+      "InstLine" : 177,
+      "InstName" : "spi",
+      "ModuleFile" : "D:/WORK/FPGA/Learning/SPI_Learning/src/LedDriver.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "spi_master"
+     }
+    ]
+   }
+  ]
+ }
+]

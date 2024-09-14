@@ -1,0 +1,29 @@
+Reading netlist file: "D:\WORK\FPGA\Learning\SPI_Learning\impl\gwsynthesis\SPI_Learning.vg"
+Parsing netlist file "D:\WORK\FPGA\Learning\SPI_Learning\impl\gwsynthesis\SPI_Learning.vg" completed
+Processing netlist completed
+Reading constraint file: "D:\WORK\FPGA\Learning\SPI_Learning\src\Spi_test.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "D:\WORK\FPGA\Learning\SPI_Learning\impl\pnr\SPI_Learning.power.html" completed
+Generate file "D:\WORK\FPGA\Learning\SPI_Learning\impl\pnr\SPI_Learning.pin.html" completed
+Generate file "D:\WORK\FPGA\Learning\SPI_Learning\impl\pnr\SPI_Learning.rpt.html" completed
+Generate file "D:\WORK\FPGA\Learning\SPI_Learning\impl\pnr\SPI_Learning.rpt.txt" completed
+Generate file "D:\WORK\FPGA\Learning\SPI_Learning\impl\pnr\SPI_Learning.tr.html" completed
+Sat Sep 14 16:45:13 2024
+

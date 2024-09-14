@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top" Register="14" Alu="12" Lut="4">
+    <SubModule name="u_rPLL"/>
+    <SubModule name="u_ledDriver" Register="69" Lut="124">
+        <SubModule name="spi" Register="30" Lut="113"/>
+    </SubModule>
+</Module>

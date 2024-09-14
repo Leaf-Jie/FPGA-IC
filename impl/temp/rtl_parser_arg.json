@@ -1,0 +1,33 @@
+{
+ "Device" : "GW1N-9C",
+ "Files" : [
+  {
+   "Path" : "D:/WORK/FPGA/Learning/SPI_Learning/src/LedControl.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/WORK/FPGA/Learning/SPI_Learning/src/LedDriver.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/WORK/FPGA/Learning/SPI_Learning/src/fifo_top/fifo_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/WORK/FPGA/Learning/SPI_Learning/src/gowin_rpll/gowin_rpll.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/WORK/FPGA/Learning/SPI_Learning/src/top.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "D:/WORK/FPGA/Learning/SPI_Learning/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

@@ -1,0 +1,46 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'D:\WORK\FPGA\Learning\SPI_Learning\src\LedControl.v'
+Analyzing Verilog file 'D:\WORK\FPGA\Learning\SPI_Learning\src\LedDriver.v'
+Analyzing Verilog file 'D:\WORK\FPGA\Learning\SPI_Learning\src\fifo_top\fifo_top.v'
+Analyzing Verilog file 'D:\WORK\FPGA\Learning\SPI_Learning\src\gowin_rpll\gowin_rpll.v'
+Analyzing Verilog file 'D:\WORK\FPGA\Learning\SPI_Learning\src\top.v'
+Compiling module 'top'("D:\WORK\FPGA\Learning\SPI_Learning\src\top.v":1)
+WARN  (EX3780) : Using initial value of 'fc_data' since it is never assigned("D:\WORK\FPGA\Learning\SPI_Learning\src\top.v":16)
+WARN  (EX3791) : Expression size 14 truncated to fit in target size 13("D:\WORK\FPGA\Learning\SPI_Learning\src\top.v":35)
+Compiling module 'Gowin_rPLL'("D:\WORK\FPGA\Learning\SPI_Learning\src\gowin_rpll\gowin_rpll.v":10)
+Compiling module 'spi_controller'("D:\WORK\FPGA\Learning\SPI_Learning\src\LedControl.v":142)
+Extracting RAM for identifier 'init_data'("D:\WORK\FPGA\Learning\SPI_Learning\src\LedControl.v":156)
+WARN  (EX3780) : Using initial value of 'index_data' since it is never assigned("D:\WORK\FPGA\Learning\SPI_Learning\src\LedControl.v":166)
+WARN  (EX3780) : Using initial value of 'vsync_data' since it is never assigned("D:\WORK\FPGA\Learning\SPI_Learning\src\LedControl.v":167)
+Compiling module 'spi_master'("D:\WORK\FPGA\Learning\SPI_Learning\src\LedDriver.v":1)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 7("D:\WORK\FPGA\Learning\SPI_Learning\src\LedDriver.v":61)
+WARN  (EX3791) : Expression size 10 truncated to fit in target size 9("D:\WORK\FPGA\Learning\SPI_Learning\src\LedDriver.v":78)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 7("D:\WORK\FPGA\Learning\SPI_Learning\src\LedDriver.v":95)
+WARN  (EX3791) : Expression size 6 truncated to fit in target size 5("D:\WORK\FPGA\Learning\SPI_Learning\src\LedDriver.v":115)
+WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("D:\WORK\FPGA\Learning\SPI_Learning\src\LedControl.v":278)
+WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("D:\WORK\FPGA\Learning\SPI_Learning\src\LedControl.v":296)
+WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("D:\WORK\FPGA\Learning\SPI_Learning\src\LedControl.v":304)
+Port is declared here("D:\WORK\FPGA\Learning\SPI_Learning\src\LedControl.v":151)
+NOTE  (EX0101) : Current top module is "top"
+WARN  (EX0211) : The output port "testIo" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\WORK\FPGA\Learning\SPI_Learning\src\top.v":9)
+[5%] Running netlist conversion ...
+WARN  (CV0016) : Input miso is unused("D:\WORK\FPGA\Learning\SPI_Learning\src\top.v":4)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "D:\WORK\FPGA\Learning\SPI_Learning\impl\gwsynthesis\SPI_Learning.vg" completed
+[100%] Generate report file "D:\WORK\FPGA\Learning\SPI_Learning\impl\gwsynthesis\SPI_Learning_syn.rpt.html" completed
+GowinSynthesis finish
